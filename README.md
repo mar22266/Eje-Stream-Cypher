@@ -161,7 +161,7 @@ esto reduce la seguridad porque aparecen patrones que pueden ser vulnerables med
 
 caso 3: keystream mas largo y truncado
 generar un keystream mas largo y truncarlo evita repeticion interna.
-el resultado es equivalente al caso 1 si se usan los mismos primeros bytes. Pero la seguridad depende de no reutilizar.
+el resultado es equivalente al caso 1 si se usan los mismos primeros bytes. Pero la seguridad depende de no reutilizar. Lo que sucede es que al ser mas largo es mas costoso cumputacionalmente.
 
 ---
 
@@ -291,3 +291,5 @@ ayuda de chatgpt para su fromato y planteacion
 - national institute of standards and technology. (2001). _recommendation for block cipher modes of operation nist sp 800-38a_. https://nvlpubs.nist.gov/nistpubs/legacy/sp/ nistspecialpublication800-38a.pdf
 
 - nir, y., & langley, a. (2018). _chacha20 and poly1305 for ietf protocols rfc 8439_. internet engineering task force. https://www.rfc-editor.org/rfc/rfc8439
+
+- chatgpt.com (2026) para algunas consultas para responder preguntas
